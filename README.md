@@ -63,15 +63,15 @@
     > stage 构建，测试没问题了 继续往下 
 
     # 18-切换到master分支，前提：保证stage 是最新的代码，并且是没有问题的代码
-    18. $ git checkout master  
+    $ git checkout master  
 
     # 19-拉取远程的 master分支的代码，并且合并到本地分支。如有冲突，解决冲突。
     # 这里有两个步骤的。暂时就这么用把，具体的自行百度
-    19. $ git pull  
+    $ git pull  
 
     # 20-合并stage 测试分支的代码到 master分支，如果有冲突解决冲突。
     # 本地测试，效果是否正常
-    20. $ git merge stage  
+    $ git merge stage  
 
 
     # 21-将本地的master分支推送到 远程的master分支
