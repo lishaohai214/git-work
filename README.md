@@ -17,6 +17,7 @@
 
     # 5-如果有测试分支stage（名字可能是其他的），拉取远程测试分支代码 并映射到本地的git 仓库 名字为stage，就是第二个stage。
     $ git fetch origin stage:stage    
+    $ git push --set-upstream origin stage   
 
     # 6-在stage分支的基础上创建一个 本地分支，
     # 所有开发的代码的这个地方去写， 写完代码之后 继续往下 
