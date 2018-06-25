@@ -24,7 +24,7 @@
     $ git checkout -b  分支名    
 
     # 7-将本地修改提交到缓存区， 中间的“/”是或者的意思
-    $ git add filename /$ git add  .   
+    $ git add filename / $ git add  .   
 
     # 8-将缓存区的代码，提交到本地仓库
     $ git commit -m  “备注内容”    
